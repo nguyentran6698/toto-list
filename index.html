@@ -8,14 +8,19 @@
         text-align: center;
       }
       h3{
-        text-transform: uppercase;
+        text-transform: capitalize;
+      }
+      li{
+        overflow: hidden;
+        padding: 22px 0;
+        border-bottom: 2px solid #eee;
       }
       ul{
         margin: 0;
         padding: 0;
       }
-      ul li{
-        cursor:pointer;
+      ul li {
+        cursor: pointer;
         position: relative;
         padding: 12px 8px 12px 40px;
         background: #eee;
@@ -25,10 +30,10 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+        overflow: hidden;
       }
-      ul li:nth-child(odd)
-      {
-        background:#f9f9f9;
+      ul li:nth-child(odd){
+        background: #f9f9f9;
       }
       ul li:hover{
         background: #ddd;
